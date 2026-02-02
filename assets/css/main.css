@@ -3896,3 +3896,30 @@ input, select, textarea {
 		align-items: flex-start;
 	}
 }
+/* =========================
+   CARROSSEL – MOBILE
+   ========================= */
+@media (max-width: 768px) {
+
+	.product-carousel {
+		gap: 12px;
+		padding: 0 12px; /* respiro lateral */
+		margin-bottom: 50px;
+	}
+
+	.carousel-track {
+		gap: 16px;
+	}
+
+	.carousel-controls {
+		width: 38px;
+	}
+
+	.carousel-controls .carousel-btn {
+		width: 38px;
+		height: 38px;
+		font-size: 1.4em;
+		border-radius: 50%; /* botão redondo no mobile */
+	}
+}
+
